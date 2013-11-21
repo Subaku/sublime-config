@@ -20,6 +20,10 @@
     { "keys": ["ctrl+w"], "command": "unbound"},
     { "keys": ["ctrl+w", "h"], "command": "focus_group", "args": { "group": 0 } },
     { "keys": ["ctrl+w", "l"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+shift+h"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+l"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+shift+alt+l"], "command": "next_view" },
+    { "keys": ["ctrl+shift+alt+h"], "command": "prev_view" },
     { "keys": [",", "q"], "command": "close",
         "context": [
             {"key": "setting.command_mode", "operand": true}
