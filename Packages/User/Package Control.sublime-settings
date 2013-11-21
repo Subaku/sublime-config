@@ -1,7 +1,11 @@
 {
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"Emmet",
+		"SideBarEnhancements",
 		"SublimeGit",
-		"Terminal"
+		"Terminal",
+		"Theme - Soda"
 	]
 }

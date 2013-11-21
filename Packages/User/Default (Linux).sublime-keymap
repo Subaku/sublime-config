@@ -1,6 +1,6 @@
 [
 	{ "keys": ["tab"], "command": "move", "args": {"by": "characters", "forward": true}, "context": [
-        { "key": "following_text", "operator": "regex_contains", "operand": "^[)\"\\]]", "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^[)}\"'\\]]", "match_all": true },
         { "key": "auto_complete_visible", "operator": "equal", "operand": false }
     ]},
 
@@ -17,7 +17,10 @@
         ]
     },
 
-    { "keys": [",", "q"], "command": "close_file",
+    { "keys": ["ctrl+w"], "command": "unbound"},
+    { "keys": ["ctrl+w", "h"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+w", "l"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": [",", "q"], "command": "close",
         "context": [
             {"key": "setting.command_mode", "operand": true}
         ]

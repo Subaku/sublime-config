@@ -1,5 +1,9 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"ignored_packages": [],
-	"vintage_start_in_command_mode": true
+	"ignored_packages":
+	[
+	],
+	"vintage_start_in_command_mode": true,
+	"vintage_ctrl_keys": true,
+	"word_wrap": true
 }
